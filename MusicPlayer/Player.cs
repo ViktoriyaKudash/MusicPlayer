@@ -48,7 +48,7 @@ namespace MusicPlayer
             Volume--;
         }
 
-        public void VolumeChange( int step)
+        public void VolumeChange(int step)
         {
             Volume += step;
         }

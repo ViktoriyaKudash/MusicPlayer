@@ -11,10 +11,10 @@ namespace MusicPlayer
         static void Main(string[] args)
         {
             var player = new Player();
-  //          player.Volume = 20;
+            //          player.Volume = 20;
             player.Songs = GetSongsData();
 
-//            TraceInfo(player);
+            //            TraceInfo(player);
 
             player.Play();
             player.VolumeUp();
@@ -60,7 +60,7 @@ namespace MusicPlayer
                 Artist = artist
             };
 
-            return new Song[] {song};
+            return new Song[] { song };
         }
 
         public static void TraceInfo(Player player)
